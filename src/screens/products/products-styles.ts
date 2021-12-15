@@ -1,3 +1,4 @@
+import { LinearProgress } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 //import theme from '../../theme';
 
@@ -31,6 +32,8 @@ const useStyles: any = makeStyles({
         color: '#5c0e00',
         textTransform: 'capitalize',
     },
+
+
 
 
 });

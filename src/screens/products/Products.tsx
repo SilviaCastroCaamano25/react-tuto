@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Counter from '../../components/counter/Counter';
 import useStyles from './products-styles'
 import ProductsService from '../../services/ProductsService';
+import { Skeleton } from '@mui/material';
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -38,6 +39,7 @@ const Products = () => {
       <Button className={classes.button} onClick={onClickButton}>Ve a la página de detalles</Button>
       <br />
       <Counter></Counter>
+      <Skeleton variant="rectangular" style={{ width: '175px', height: '10px', position: 'absolute', top: '58%', backgroundColor: 'lightgray' }} />
     </div>
   );
 };
