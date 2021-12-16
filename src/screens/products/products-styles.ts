@@ -33,9 +33,6 @@ const useStyles: any = makeStyles({
         textTransform: 'capitalize',
     },
 
-
-
-
 });
 
 export default useStyles;
