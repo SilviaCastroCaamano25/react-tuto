@@ -33,6 +33,15 @@ const useStyles: any = makeStyles({
         textTransform: 'capitalize',
     },
 
+    productsContainer: {
+        position: 'relative',
+        border: '1px, solid, gainsboro',
+        display: 'flex',
+        flexWrap: 'wrap',
+        margin: '20px',
+        alignContent: 'space-between',
+    },
+
 });
 
 export default useStyles;

@@ -11,7 +11,7 @@ const ProductItem = (props: any) => {
                 <img className={classes.image} src={props.product.image} />
             </div>
             <h3 className={classes.textName}>{props.product.name}</h3>
-            <Counter></Counter>
+            {/***** }<Counter></Counter>*/}
             <div className={classes.buttonContainer}>
                 <h3>{props.product.unitPrice}</h3>
                 <Button>Añadir a la cesta</Button>

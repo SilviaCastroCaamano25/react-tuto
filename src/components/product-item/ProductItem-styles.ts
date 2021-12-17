@@ -7,6 +7,7 @@ const useStyles: any = makeStyles({
         width: '250px',
         backgroundColor: 'white',
         border: '1px, solid, gainsboro',
+        margin: '10px',
     },
 
     imageContainer: {

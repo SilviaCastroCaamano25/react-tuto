@@ -37,10 +37,12 @@ const Products = () => {
   return (
     <div className={classes.container}>
       <div className={classes.header}>
-        <Typography className={classes.h1}>Soy la página de productos</Typography>
+        {/* <Typography className={classes.h1}>Soy la página de productos</Typography>*/}
       </div>
       <div className={classes.productsContainer}>
-        <ProductItem product={products[4]} />
+        {products.map((item) => {
+          return <ProductItem product={item} />;
+        })}
       </div>
       {/*<Counter></Counter>
       <Skeleton variant="rectangular" style={{ width: '175px', height: '10px', position: 'absolute', top: '58%', backgroundColor: 'lightgray' }} />
